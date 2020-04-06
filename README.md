@@ -1,4 +1,10 @@
 # mongoDB_Cookbook
 
-TODO: Enter the cookbook description here.
+# provisons mongoDB in VM using chef
 
+- Add
+```
+driver:
+  box: ubuntu/bionic64
+```
+to kitchen.yml 

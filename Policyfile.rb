@@ -10,7 +10,9 @@ name 'mongoDB_Cookbook'
 default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
+#run_list 'mongoDB_Cookbook::default'
 run_list 'mongoDB_Cookbook::default'
+#run_list 'mongoDB_Cookbook::provisionMongo'
 
 # Specify a custom source for a single cookbook:
 cookbook 'mongoDB_Cookbook', path: '.'

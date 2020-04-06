@@ -1,6 +1,6 @@
 #
 # Cookbook:: mongoDB_Cookbook
-# Recipe:: default
+# Recipe:: provisionMongo
 #
 # Copyright:: 2020, The Authors, All Rights Reserved.
 
@@ -13,3 +13,4 @@ end
 service 'mongodb' do
   action [:enable, :start]
 end
+ 
